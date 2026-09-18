@@ -1,7 +1,14 @@
+# React / Node
 node_modules/
 node_modules/.cache/
-application.properties
+
+# Environment / secrets
 .env
+application.properties
+
+# AWS / private keys
 *.pem
-node_modules/
+
+# Spring Boot / Maven
 target/
+bin/
