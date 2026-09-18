@@ -1,5 +1,5 @@
 {
-  "name": "fresh-cart",
+  "name": "freshbasket-ecommerce",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -58,7 +58,7 @@
   },
   "main": "index.js",
   "keywords": [],
-  "author": "",
+  "author": "ARAVIND D",
   "license": "ISC",
   "description": ""
 }
