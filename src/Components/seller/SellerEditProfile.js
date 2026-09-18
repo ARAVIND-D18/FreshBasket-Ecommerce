@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useHistory, useLocation } from 'react-router-dom'
 import axios from 'axios'
 import SellerMenuBar from './SellerMenuBar'
-// const url = 'http://localhost:8080'
+// const url = 'https://two-baths-press.loca.lt'
 import { url } from '../common/constants'
 const SellerEditProfile = () => {
 

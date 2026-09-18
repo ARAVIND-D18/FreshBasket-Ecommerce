@@ -15,7 +15,7 @@ const ChangeSellerPassword = () => {
 
   const ChangePassword = (sellerId) => {
     axios
-      .put(`http://localhost:8080/seller/update/${sellerId}`, {
+      .put(`https://two-baths-press.loca.lt/seller/update/${sellerId}`, {
         password: password,
       })
       .then((response) => {

@@ -6,7 +6,7 @@ const AllCategories = () => {
   const [categories, setCategories] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:8080/api/categories") // Backend API
+    axios.get("https://two-baths-press.loca.lt/category") // Backend API
       .then(response => setCategories(response.data))
       .catch(error => console.error("Error fetching categories:", error));
   }, []);

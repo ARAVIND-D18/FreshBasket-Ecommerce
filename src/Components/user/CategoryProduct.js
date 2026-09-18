@@ -7,7 +7,7 @@ const CategoryProducts = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    axios.get(`http://localhost:8080/api/categories/${categoryId}/products`) // API for category products
+    axios.get(`https://two-baths-press.loca.lt/category/${categoryId}/products`) // API for category products
       .then(response => setProducts(response.data))
       .catch(error => console.error("Error fetching products:", error));
   }, [categoryId]);
